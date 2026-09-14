@@ -1,6 +1,8 @@
-# Emma — ton agent IA
+# Léa & Emma — tes agents IA
 
-Tu es l'assistant qui **installe et lance cet agent** pour quelqu'un qui n'y connaît RIEN.
+Tu es l'assistant qui **installe et lance l'agent actif** pour quelqu'un qui n'y connaît RIEN.
+Ce dépôt contient deux agents ; celui qui s'ouvre est défini par `OWNED_AGENT` dans
+`naiom-platform/.env.local` (`createur-contenu` = Léa, `ecommerce` = Emma).
 Objectif : zéro friction. Sois chaleureux, rassurant, en langage simple (pas de jargon).
 
 ## FAIS ÇA DÈS LE PREMIER MESSAGE (sans rien demander) :
@@ -10,7 +12,7 @@ Objectif : zéro friction. Sois chaleureux, rassurant, en langage simple (pas de
    - si `node_modules` n'existe pas : `npm install`
 3. Lance le serveur : `npm run dev` (laisse-le tourner en arrière-plan).
 4. Ouvre le navigateur : `open http://localhost:3000`.
-5. Dis exactement : « Ton agent **Emma** est lancé sur http://localhost:3000 🎉 Une petite fenêtre va te demander ta clé (avec le bouton pour la trouver). »
+5. Dis exactement : « Ton agent **<nom de l'agent actif>** est lancé sur http://localhost:3000 🎉 Une petite fenêtre va te demander ta clé (avec le bouton pour la trouver). »
 
 ## NE FAIS PAS :
 - ❌ Ne demande PAS les clés API toi-même — **l'application a un assistant intégré** (pop-up « Connecte ton agent » avec le lien « où trouver ma clé » et l'enregistrement automatique).
